@@ -86,13 +86,10 @@ Confusion Matrix: Helped identify how often the model predicted attrition correc
 
 
 ## Model Interpretability (SHAP Analysis)
----
 
 Purpose: SHAP was used to understand why the model predicted attrition for certain employees.
 
 ---
-
-
 ## Top Influencing Features:
 ---
 
