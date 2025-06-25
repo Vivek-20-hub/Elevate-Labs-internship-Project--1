@@ -13,8 +13,8 @@ The goal of this project is to predict employee attrition using historical HR da
 
 ---
 ---
-### Tools and Technologies Used
-To execute the employee attrition analysis and build an effective prediction model, several powerful tools and technologies were used, each serving a specific purpose in the data science workflow:
+## Tools and Technologies Used
+
 ---
 ---
 ## Python:
@@ -41,3 +41,58 @@ SHAP was used to interpret the machine learning model by explaining the impact o
 ## Power BI:
 Power BI was used to build an interactive and professional dashboard for visualizing attrition insights. It allowed end-users (such as HR teams) to filter by department, age, salary, and other variables to explore trends and support data-driven decision-making.
 ---
+--
+
+## Programming Language & Modules
+---
+---
+
+Python was used as the primary programming language for its ease of use and strong data science ecosystem.
+
+Pandas helped manipulate and filter data, especially for analyzing factors like department-wise attrition.
+
+NumPy supported numerical operations required during data normalization and model input preparation.
+
+Matplotlib & Seaborn were used to create visualizations that revealed trends such as higher attrition in Sales and among employees with low job satisfaction.
+
+Scikit-learn enabled the building and evaluation of the Logistic Regression model using metrics like accuracy, precision, and recall.
+
+SHAP was used for interpreting model predictions and understanding feature importance related to attrition.
+
+Jupyter Notebook served as the interactive development environment, combining code, output, and commentary in one place.
+---
+## Machine Learning Model
+---
+---
+
+Model Used: Logistic Regression, a binary classifier ideal for predicting "Yes" or "No" outcomes (i.e., whether an employee will leave).
+
+Input Features: Included age, monthly income, overtime status, job level, years at company, and job satisfaction.
+
+Key Insight: Employees with overtime, lower income, and low job satisfaction had 20–30% higher attrition probability on average.
+
+Evaluation Metrics: Used accuracy, precision, recall, and F1-score to ensure balanced performance.
+
+Confusion Matrix: Helped identify how often the model predicted attrition correctly vs. where it failed (e.g., false negatives).
+---
+---
+
+
+## Model Interpretability (SHAP Analysis)
+---
+Purpose: SHAP was used to understand why the model predicted attrition for certain employees.
+---
+---
+## Top Influencing Features:
+---
+
+OverTime — increased attrition risk by approx. 25–35%.
+
+Low Job Satisfaction — added to a 20% increase in attrition likelihood.
+
+Years with Current Manager — longer relationships correlated with lower attrition.
+
+Work-Life Balance — poor balance led to higher attrition risks.
+
+SHAP Summary Plot: Visually showed feature importance and the direction of influence (positive or negative) on attrition.
+----
