@@ -13,4 +13,31 @@ The goal of this project is to predict employee attrition using historical HR da
 
 ---
 ---
-### 
+### Tools and Technologies Used
+To execute the employee attrition analysis and build an effective prediction model, several powerful tools and technologies were used, each serving a specific purpose in the data science workflow:
+---
+---
+## Python:
+Python was the primary programming language used throughout the project. It was chosen for its simplicity, rich ecosystem of data science libraries, and versatility in handling data analysis, machine learning, and automation tasks.
+
+## Pandas:
+Pandas was used extensively for data loading, cleaning, manipulation, and transformation. It provided powerful data structures such as DataFrames, making it easy to filter, aggregate, and preprocess employee records from the CSV file.
+
+## NumPy:
+NumPy complemented Pandas by offering high-performance numerical operations. It was particularly helpful during data standardization and when working with large arrays or matrix transformations.
+
+## Matplotlib:
+Matplotlib was used to create static, customizable plots and charts. It played a crucial role in generating visual outputs such as bar charts, line graphs, and histograms that helped identify trends related to attrition.
+
+## Seaborn:
+Built on top of Matplotlib, Seaborn allowed for easier and more aesthetic statistical visualizations. It was particularly effective in creating heatmaps, count plots, and distribution plots to uncover hidden relationships within the data.
+
+## Scikit-learn:
+Scikit-learn was the core library for building and evaluating machine learning models. It was used to perform tasks such as splitting the dataset, training the logistic regression model, and calculating performance metrics like accuracy, precision, recall, and the confusion matrix.
+
+## SHAP (SHapley Additive exPlanations):
+SHAP was used to interpret the machine learning model by explaining the impact of each feature on predictions. It provided global and individual-level explanations, which helped identify critical factors leading to employee attrition.
+
+## Power BI:
+Power BI was used to build an interactive and professional dashboard for visualizing attrition insights. It allowed end-users (such as HR teams) to filter by department, age, salary, and other variables to explore trends and support data-driven decision-making.
+---
