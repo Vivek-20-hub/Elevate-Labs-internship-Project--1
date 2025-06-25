@@ -45,7 +45,7 @@ SHAP was used to interpret the machine learning model by explaining the impact o
 Power BI was used to build an interactive and professional dashboard for visualizing attrition insights. It allowed end-users (such as HR teams) to filter by department, age, salary, and other variables to explore trends and support data-driven decision-making.
 
 ---
---
+---
 
 ## Programming Language & Modules
 ---
