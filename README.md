@@ -119,19 +119,19 @@ To communicate the findings effectively, we utilized Matplotlib and Seaborn for 
 ## Steps Involved in Building the Project
 ---
 
-- Data Collection: The dataset used in this project was obtained from Kaggle, a well-known platform for open datasets. It included detailed information about employees and their attrition status.
+1. Data Collection: The dataset used in this project was obtained from Kaggle, a well-known platform for open datasets. It included detailed information about employees and their attrition status.
 
-- Data Preprocessing: The raw dataset was cleaned by handling missing values and removing irrelevant columns. Categorical variables were encoded using Label Encoding and One-Hot Encoding, and all numeric features were standardized using StandardScaler.
+2. Data Preprocessing: The raw dataset was cleaned by handling missing values and removing irrelevant columns. Categorical variables were encoded using Label Encoding and One-Hot Encoding, and all numeric features were standardized using StandardScaler.
 
-- Exploratory Data Analysis (EDA): Visualizations were created to uncover meaningful trends and correlations, such as the impact of salary, department, and overtime on attrition. This step helped frame the modeling strategy.
+3. Exploratory Data Analysis (EDA): Visualizations were created to uncover meaningful trends and correlations, such as the impact of salary, department, and overtime on attrition. This step helped frame the modeling strategy.
 
-- Building the Prediction Model: A logistic regression model was trained on the cleaned and preprocessed data. Its accuracy and effectiveness were measured using a confusion matrix and classification report.
+4. Building the Prediction Model: A logistic regression model was trained on the cleaned and preprocessed data. Its accuracy and effectiveness were measured using a confusion matrix and classification report.
 
-- SHAP Value Analysis: To improve interpretability, SHAP was applied to understand the contribution of each feature to the model’s predictions. This provided transparency and helped identify key drivers of attrition.
+5. SHAP Value Analysis: To improve interpretability, SHAP was applied to understand the contribution of each feature to the model’s predictions. This provided transparency and helped identify key drivers of attrition.
 
-- Power BI Dashboard: A comprehensive dashboard was built to present visual insights, allowing HR teams to interact with filters and observe attrition trends in real time.
+6. Power BI Dashboard: A comprehensive dashboard was built to present visual insights, allowing HR teams to interact with filters and observe attrition trends in real time.
 
-- Employee Attrition Prevention Suggestions: Based on the model outputs and SHAP insights, actionable suggestions were generated, such as improving compensation, reducing overtime, and increasing managerial engagement for high-risk groups.
+7. Employee Attrition Prevention Suggestions: Based on the model outputs and SHAP insights, actionable suggestions were generated, such as improving compensation, reducing overtime, and increasing managerial engagement for high-risk groups.
 
 ---
 
