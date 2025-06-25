@@ -9,14 +9,17 @@ Employee attrition is one of the most significant challenges faced by organizati
 ---
 
 ## Abstract
+
 The goal of this project is to predict employee attrition using historical HR data and provide actionable insights through data visualization and machine learning. We analyze multiple factors such as work environment, job role, salary, tenure, satisfaction levels, and performance metrics to uncover patterns that influence attrition. By building a logistic regression model and interpreting its output using SHAP, we gain a clear understanding of which features drive employee turnover. Furthermore, a Power BI dashboard is developed to visually communicate key trends and department-wise breakdowns. The outcome of this project serves not just as a predictive tool, but also as a strategic guide for implementing effective employee retention policies.
 
 ---
 ---
+
 ## Tools and Technologies Used
 
 ---
 ---
+
 ## Python:
 Python was the primary programming language used throughout the project. It was chosen for its simplicity, rich ecosystem of data science libraries, and versatility in handling data analysis, machine learning, and automation tasks.
 
@@ -40,6 +43,7 @@ SHAP was used to interpret the machine learning model by explaining the impact o
 
 ## Power BI:
 Power BI was used to build an interactive and professional dashboard for visualizing attrition insights. It allowed end-users (such as HR teams) to filter by department, age, salary, and other variables to explore trends and support data-driven decision-making.
+
 ---
 --
 
@@ -60,8 +64,10 @@ Scikit-learn enabled the building and evaluation of the Logistic Regression mode
 SHAP was used for interpreting model predictions and understanding feature importance related to attrition.
 
 Jupyter Notebook served as the interactive development environment, combining code, output, and commentary in one place.
+
 ---
 ## Machine Learning Model
+
 ---
 ---
 
@@ -74,15 +80,19 @@ Key Insight: Employees with overtime, lower income, and low job satisfaction had
 Evaluation Metrics: Used accuracy, precision, recall, and F1-score to ensure balanced performance.
 
 Confusion Matrix: Helped identify how often the model predicted attrition correctly vs. where it failed (e.g., false negatives).
+
 ---
 ---
 
 
 ## Model Interpretability (SHAP Analysis)
 ---
+
 Purpose: SHAP was used to understand why the model predicted attrition for certain employees.
+
 ---
----
+
+
 ## Top Influencing Features:
 ---
 
@@ -95,4 +105,5 @@ Years with Current Manager — longer relationships correlated with lower attrit
 Work-Life Balance — poor balance led to higher attrition risks.
 
 SHAP Summary Plot: Visually showed feature importance and the direction of influence (positive or negative) on attrition.
+
 ----
